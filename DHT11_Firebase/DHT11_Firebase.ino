@@ -13,7 +13,7 @@ const char* pass = "*********";
 
 FirebaseData DHTData;
 
-#define DHTTYPE DHT11
+#define DHTTYPE DHT11 //Sensor DHT yang dipakai
 #define DHTPIN D2 //pin DHT yang dipakai
 DHT dht(DHTPIN, DHTTYPE);
 void setup() {
