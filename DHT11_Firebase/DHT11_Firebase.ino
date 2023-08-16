@@ -1,7 +1,7 @@
 #include "FirebaseESP8266.h"
 #include <ESP8266WiFi.h>
 #include <DHT.h>
-int sen;
+
 
 //................SSID DAN PASS PADA WIFI................//
 const char* ssid = "*********";
